@@ -1,13 +1,8 @@
-<!DOCTYPE htnl>
-<html lang="es">
-    <head>
-	<meta charset="UTF-8">
-	<title>Felinos - Plasma tu idea.</title>
-	<!--<link rel="stylesheet" href="{{ url_for ("static", filename="base.css") }}">-->
-    </head>
-    <body>
-        <h1>BIENVENIDO</h1>
-	{% block content %}
-	{% endblock %}
-    </body>
-</html>
+{% extends "layout.html" %}
+
+    {% block title %}
+        {{titulo}}
+    {% endblock %}
+    {% block content %}
+        <h1>FELINOS</h1>
+    {% endblock %}
