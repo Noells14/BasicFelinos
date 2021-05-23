@@ -5,6 +5,6 @@
         "src": "*py", "use": "@Noells14/now-flask"
     }],
     "routes": [{ 
-        "src": ".*", "dest": "felino.py"
+        "src": "(.*)", "dest": "felino.py"
     }]
 }
