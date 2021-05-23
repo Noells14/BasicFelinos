@@ -1,1 +1,1 @@
-web: gunicorn felino:app
+web:gunicorn felino:app
