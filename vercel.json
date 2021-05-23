@@ -1,6 +1,6 @@
 {
     "name": "Basic Felinos",
-    "versio": 2,
+    "version": 2,
     "builds": [{
         "src": "*py", "use": "@noells14"
     }],
