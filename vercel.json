@@ -1,0 +1,10 @@
+{
+    "name": "Basic Felinos",
+    "versio": 2,
+    "builds": [{
+        "src": "*py", "use": "@Noells14/now-flask"
+    }],
+    "routes": [{ 
+        "src": ".*", "dest": "felino.py"
+    }]
+}
