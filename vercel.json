@@ -1,16 +1,6 @@
 {
-    "name": "Basic Felinos",
     "version": 2,
     "builds": [
         { "src": "*.py", "use": "@vercel/python" }
-    ],
-    "routes": [
-        { 
-            "src": "/", "dest": "felino.py", "methods": [ "GET" ]
-        },
-        { 
-            "src": "/", "dest": "felino.py", "methods": [ "POST" ]
-        }
     ]
-
 }
