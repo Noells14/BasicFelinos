@@ -2,7 +2,7 @@
     "name": "Basic Felinos",
     "versio": 2,
     "builds": [{
-        "src": "*py", "use": "@Noells14/now-flask"
+        "src": "*py", "use": "@noells14"
     }],
     "routes": [{ 
         "src": "(.*)", "dest": "felino.py"
