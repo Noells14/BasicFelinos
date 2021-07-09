@@ -10,9 +10,9 @@
     </head>
     <body>
 	    <header>
-	      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="/">Felinos</a>
+	      <nav id="navegacion" class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div id="opciones" class="container-fluid">
+            <img src="{{ url_for('static', filename='icons/Felinos.jpg') }}" width="7%">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -53,28 +53,17 @@
 
       <br>
 
-      <div class="container">
+      <div class="container-fluid">
         <hr>
         <div class="row">
-          <div class="col-md-4">
-            <h4>Mision</h4>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam nesciunt ab veritatis est necessitatibus suscipit, veniam quidem voluptates minus. Dicta, accusantium nostrum? Dolore, consequuntur commodi excepturi dolorum quasi ab laboriosam!</p>
+          <div class="col-md-12 text-center">
+            <h3>SIGUENOS TAMBIEN EN NUESTRAS REDES SOCIALES</h3>
           </div>
-          <div class="col-md-4">
-            <h4>Mision</h4>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam nesciunt ab veritatis est necessitatibus suscipit, veniam quidem voluptates minus. Dicta, accusantium nostrum? Dolore, consequuntur commodi excepturi dolorum quasi ab laboriosam!</p>
-          </div>
-          <div class="col-md-4">
-            <h4>Mision</h4>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam nesciunt ab veritatis est necessitatibus suscipit, veniam quidem voluptates minus. Dicta, accusantium nostrum? Dolore, consequuntur commodi excepturi dolorum quasi ab laboriosam!</p>
-          </div>
-        </div>
-        <hr>
-        <div class="row">
           <div class="col-md-12 text-center">
             <a href="https://www.facebook.com/Felinos-Plasma-tu-idea-1950571835180526/"><img src="{{ url_for('static', filename='icons/felino_facebook.png') }}" alt="" width="3%"></a>
           </div>
         </div>
+        <hr>
         <br>        
       </div>
     </body>
