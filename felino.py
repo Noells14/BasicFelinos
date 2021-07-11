@@ -14,5 +14,11 @@ def about():
 def products():
     return render_template("products.html",titulo="Felinos - Trabajando!")
 
+@app.route('/contac')
+def contac():
+    return render_template("contac.html",titulo="Felinos - Contacto!")
+
 if __name__ == '__main__':
     app.run(debug=True)
+
+	
